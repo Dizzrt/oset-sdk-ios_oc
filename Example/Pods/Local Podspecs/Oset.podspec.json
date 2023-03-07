@@ -1,0 +1,22 @@
+{
+  "name": "Oset",
+  "version": "0.1.0",
+  "summary": "A short description of Oset.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/25283449/Oset",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "25283449": "shihaoran.dizzrt@bytedance.com"
+  },
+  "source": {
+    "git": "https://github.com/25283449/Oset.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "Oset/Classes/**/*"
+}

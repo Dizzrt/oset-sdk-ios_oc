@@ -1,0 +1,6 @@
+framework module Oset {
+  umbrella header "Oset-umbrella.h"
+
+  export *
+  module * { export * }
+}
