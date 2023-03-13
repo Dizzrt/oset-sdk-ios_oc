@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ETReporter.h"
 
 FOUNDATION_EXPORT double OsetVersionNumber;
 FOUNDATION_EXPORT const unsigned char OsetVersionString[];

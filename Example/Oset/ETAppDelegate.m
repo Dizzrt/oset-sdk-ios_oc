@@ -7,12 +7,17 @@
 //
 
 #import "ETAppDelegate.h"
+#import "ETViewController.h"
 
 @implementation ETAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    ETViewController *vc = [[ETViewController alloc] init];
+    [self.window setRootViewController:vc];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
